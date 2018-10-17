@@ -33,6 +33,6 @@ class String
       else 
         counted_arr.count
       end
-      self.split(/[.!?]/).reject {|x| x.empty?}.size  #splits on all punctuation using regex and removes split criteria. Then counts remaining sentences. 
+      self.split(/[.!?]/).reject {|x| x.empty?.size  #splits on all punctuation using regex and removes split criteria. Then counts remaining sentences. 
   end 
 end
